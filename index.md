@@ -21,16 +21,18 @@ messages for FES-Acatlan community.
 
 ## To know more about...
 1. [Basic Programming with C](./mrkdwn/prgrmminCBsc.html)
-- [Part I](./mrkdwn/PartI/readme.md)
-- [Part II](./mrkdwn/PartII/readme.md)
-- [Part III](./mrkdwn/PartIII/readme.md)
-- [Part IV](./mrkdwn/PartIV/readme.md)
-- [Part V](./mrkdwn/PartV/readme.md)
-- [Part VI](./mrkdwn/PartVI/readme.md)
-- [Part VII](./mrkdwn/PartVII/readme.md)
+   - [Part I](./mrkdwn/PartI/readme.md)
+   - [Part II](./mrkdwn/PartII/readme.md)
+   - [Part III](./mrkdwn/PartIII/readme.md)
+   - [Part IV](./mrkdwn/PartIV/readme.md)
+   - [Part V](./mrkdwn/PartV/readme.md)
+   - [Part VI](./mrkdwn/PartVI/readme.md)
+   - [Part VII](./mrkdwn/PartVII/readme.md)
 
-1. [Activities](./mrkdwn/activities.html)
-1. [Important messages](./mrkdwn/messages.html)
+2. [Computational Mathematical Methods for Data Science](./mrkdwn/PartI/computational-mathematical-methods-for-data-science.html)
+
+3. [Activities](./mrkdwn/activities.html)
+4. [Important messages](./mrkdwn/messages.html)
 
 
 
