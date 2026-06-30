@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Laboratorio: Estructuras de control | JO’s Courses</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Laboratorio: Estructuras de control" />
+<meta name="author" content="Javier Orduz" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Group of Quantum and Scientific Computing" />
+<meta property="og:description" content="Group of Quantum and Scientific Computing" />
+<link rel="canonical" href="https://jaorduz.github.io/mrkdwn/PartIV/" />
+<meta property="og:url" content="https://jaorduz.github.io/mrkdwn/PartIV/" />
+<meta property="og:site_name" content="JO’s Courses" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Laboratorio: Estructuras de control" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Javier Orduz"},"description":"Group of Quantum and Scientific Computing","headline":"Laboratorio: Estructuras de control","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jaorduz.github.io/assets/img/FESAcUNAM.jpg"},"name":"Javier Orduz"},"url":"https://jaorduz.github.io/mrkdwn/PartIV/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=618ce976bae921c0e13ca4ad7f99bc2cda98835c">
+    
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>
+        <a href="https://jaorduz.github.io/">
+        JO's Courses
+        </a>
+        </h1>
+        <!-- JO: Logo GCCyC -->
+        
+          <img src="/assets/img/FESAcUNAM.jpg" alt="Logo" />
+        
+
+        <p>
+        Group of Quantum and Scientific Computing
+        </p>
+
+
+        
+
+<!-- JO: to put buttons to the github repository-->
+        
+        
+      </header>
+      <section>
+
+      <h1 id="laboratorio-estructuras-de-control">Laboratorio: Estructuras de control<a name="LabEstrucDeControl"></a></h1>
+
+<p>Los siguientes ejercicios tiene como propósito revisar y repasar los 
+conceptos del tema <strong>Estructuras de Control</strong></p>
+
+<p>En las siguientes líneas encuentras la tabla de contenido de esta carpeta.</p>
+
+<h3 id="usa-el-repositorio-que-se-encuentra-en-partiv">Usa el repositorio que se encuentra en: <a href="https://github.com/UNAM-FESAc/Bsc_Prgrmmng_C/tree/master/PartIV" target="_blank">partIV</a></h3>
+
+<h2 id="tabla-de-contenido">Tabla de Contenido</h2>
+<ol>
+  <li><a href="#InfLabPDF">Informe de Laboratorio</a></li>
+  <li><a href="#ejercicios">Ejercicios</a></li>
+  <li><a href="#ejerciciosLaboratorios">Ejercicios de Laboratorio</a></li>
+  <li><a href="#ejerciciosEspeciales">Ejercicios especiales</a></li>
+  <li><a href="#referencias">Referencias</a></li>
+</ol>
+
+<h3 id="informe-de-laboratorio">Informe de laboratorio<a name="InfLabPDF"></a></h3>
+
+<p>Debes realizar un informe de laboratorio que contenga información sobre la 
+lista de ejercicios que aparecen en esta sección. El formato para el informe 
+debe seguir el que se muestra en el siguiente archivo:
+<a href="https://www.dropbox.com/s/f0yia01yn2i1ozw/gral-templete.pdf?dl=0">PDF</a>. 
+Este formato puede usarse para la entrega de diferentes reportes, incluso 
+tu proyecto final. Coloca tu documento (PDF) en tu dropbox.</p>
+
+<h3 id="ejercicios">Ejercicios<a name="ejercicios"></a></h3>
+
+<ol>
+  <li>
+    <p><em>01while.c</em> Discute con tus compañeros si la afirmación es correcta:</p>
+
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />La instruccion while se utiliza para generar bucles (ciclos):
+ hasta satisfacer la condicion, un grupo de condiciones se 
+ ejecuta de forma repetida.</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />La instruccion while se utiliza para generar bucles (ciclos):
+ hasta evitar la condicion, un grupo de instrucciones se 
+ ejecuta de forma repetida.</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />La instruccion while se utiliza para generar bucles (ciclos):
+ hasta satisfacer la condicion, un grupo de instrucciones se 
+ ejecuta de forma repetida.</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />La instruccion while se utiliza para generar bucles (ciclos):
+ hasta satisfacer la condicion, ningún grupo de instrucciones se 
+ ejecuta de forma repetida.</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />La instruccion while se utiliza para generar bucles (ciclos):
+ hasta satisfacer la condicion, un grupo de instrucciones no se 
+ ejecuta de forma repetida.</li>
+    </ul>
+  </li>
+</ol>
+
+<pre><code class="language-C">	while(condicion){instrucciones}
+</code></pre>
+
+<ol>
+  <li>
+    <p><em>03do-while.c</em> Observa y discute sobre cuál es la forma correcta de un do-while</p>
+
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />        <pre><code class="language-C"> do 
+ {
+ // instrucciones
+ }
+ while(condicion)
+</code></pre>
+      </li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />        <pre><code class="language-C"> do 
+ {
+ // instrucciones;
+ }
+ while(condicion);
+</code></pre>
+      </li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />        <pre><code class="language-C"> do 
+ {
+ // instrucciones
+ }
+ while(condicion;)
+</code></pre>
+      </li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />        <pre><code class="language-C"> do; 
+ {
+ // instrucciones
+ }
+ while(condicion)
+</code></pre>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	La instrucción do-while se utiliza para generar bucles (ciclos):
+	un grupo de instrucciones se ejecuta de forma repetida, hasta 
+	satisfacer la condicion.
+</code></pre></div></div>
+
+<ol>
+  <li><em>04centinela-bucle</em> Reflexiona sobre el uso de los centinelas. Desde 
+ el punto de vista de la programación, responde:	¿Qué es un centinela?</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	Repetición definida: Aquella que se implementa a través de un contador.
+	Repetición indefinida: Aquella que se implementa a través de un centinela.
+
+</code></pre></div></div>
+
+<ol>
+  <li>
+    <p><em>05bandera-bucle.c</em> Reflexiona sobre las siguientes afirmaciones: Una bandera…</p>
+
+    <p>a.[ ] no es un indicador.</p>
+
+    <p>b.[X] es un indicador.</p>
+
+    <p>c.[ ] no es bandera.</p>
+
+    <p>d.[ ] es un parámetro de iteración.</p>
+
+    <p>e.[ ] es una variables.</p>
+  </li>
+  <li>
+    <p><em>05ques-ope.c</em> 
+ a. El estudiante debe cambiar == por =, y reflexionar sobre lo que sucede.</p>
+
+    <p>b. Introduce el teorema del seno y  del coseno en el programa 
+ y que el programa calcule el otro lado. 
+ En caso necesario, el usuario debe introducir dos lados y un ángulo 
+ por consola, y elegir la clasificación del triángulo según sus lados.</p>
+  </li>
+</ol>
+
+<pre><code class="language-C">	# Identificador puede ser de diferente tipo. Prueba cuáles...
+	switch(Identificador){
+	case 1:
+	# Instrucciones;
+	# ...y casos n-1
+	break;
+	case n:
+	break;
+	default: 
+	# Instrucciones por defecto;
+	break;	
+	}
+
+</code></pre>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>c. Escriba dos programas en los que implemente un if-else y el otro con 
+el operador ternario.
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	El operador ternario se usa de la forma A ? B : C
+	y es una operacion con tres operandos. Se conoce como expresion 
+	condicional. Note la similitud con el condicional if-else.
+</code></pre></div></div>
+
+<ol>
+  <li><em>08for_bucle</em>
+    <ul>
+      <li>Modifica el código para que la salida sea:</li>
+    </ul>
+  </li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>Resultados</th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>i =     0</td>
+      <td>i*i =     0</td>
+      <td>i<em>i</em>i =     0</td>
+    </tr>
+    <tr>
+      <td>i =     1</td>
+      <td>i*i =     1</td>
+      <td>i<em>i</em>i =     1</td>
+    </tr>
+    <tr>
+      <td>i =     2</td>
+      <td>i*i =     4</td>
+      <td>i<em>i</em>i =     8</td>
+    </tr>
+    <tr>
+      <td>i =     3</td>
+      <td>i*i =     9</td>
+      <td>i<em>i</em>i =    27</td>
+    </tr>
+    <tr>
+      <td>i =     4</td>
+      <td>i*i =    16</td>
+      <td>i<em>i</em>i =    64</td>
+    </tr>
+    <tr>
+      <td>i =     5</td>
+      <td>i*i =    25</td>
+      <td>i<em>i</em>i =   125</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Haz que los valores inicial y final se adquieran a traves 
+de la pantalla.
+</code></pre></div></div>
+
+<ol>
+  <li><em>09for_bucle.c</em>
+    <ul>
+      <li>
+        <p>Modifica el archivo en la línea <code class="language-plaintext highlighter-rouge">C printf("%d\n",i++);</code>
+ por <code class="language-plaintext highlighter-rouge">C printf("%d\n",++i);</code>
+ Discute con tus compañeros sobre los resultados obtenidos. Explíca.</p>
+      </li>
+      <li>
+        <p>Modifica el archivo para que obtengas (usa el operador incremento):</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>Resultados</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>21</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Discute tu solución. Revisa los otros códigos del bloque <em>09for_bucle01.c</em>-<em>09for_bucle07.c</em>.</p>
+
+<p>8.<em>10for_bucle.c</em> Edita el código…
+	- para que la salida sea parecida a (usa secuencias de escape):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Resultados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4 x -5 =  -20</td>
+    </tr>
+    <tr>
+      <td>4 x -4 =  -16</td>
+    </tr>
+    <tr>
+      <td>4 x -3 =  -12</td>
+    </tr>
+    <tr>
+      <td>4 x -2 =   -8</td>
+    </tr>
+    <tr>
+      <td>4 x -1 =   -4</td>
+    </tr>
+    <tr>
+      <td>4 x  0 =    0</td>
+    </tr>
+    <tr>
+      <td>4 x  1 =    4</td>
+    </tr>
+    <tr>
+      <td>4 x  2 =    8</td>
+    </tr>
+    <tr>
+      <td>4 x  3 =   12</td>
+    </tr>
+    <tr>
+      <td>4 x  4 =   16</td>
+    </tr>
+    <tr>
+      <td>4 x  5 =   20</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Implementa un switch para que el usuario elija cuál tabla de multiplicar 
+desea ver en pantalla (también puedes usar un for).
+- Modifica el código para la salida se muestre de la siguiente forma (ejemplo):
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Producto</th>
+      <th>Suma</th>
+      <th>Resta</th>
+      <th>División</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6 x  1 =  6.0</td>
+      <td>6 +  1 =  7.0</td>
+      <td>6 -  1 = 5.0</td>
+      <td>6 /  1 =  6.0</td>
+    </tr>
+    <tr>
+      <td>6 x  2 = 12.0</td>
+      <td>6 +  2 =  8.0</td>
+      <td>6 -  2 = 4.0</td>
+      <td>6 /  2 =  3.0</td>
+    </tr>
+    <tr>
+      <td>6 x  3 = 18.0</td>
+      <td>6 +  3 =  9.0</td>
+      <td>6 -  3 = 3.0</td>
+      <td>6 /  3 =  2.0</td>
+    </tr>
+    <tr>
+      <td>6 x  4 = 24.0</td>
+      <td>6 +  4 = 10.0</td>
+      <td>6 -  4 = 2.0</td>
+      <td>6 /  4 =  1.5</td>
+    </tr>
+    <tr>
+      <td>6 x  5 = 30.0</td>
+      <td>6 +  5 = 11.0</td>
+      <td>6 -  5 = 1.0</td>
+      <td>6 /  5 = 1.2</td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li><em>11for-anidado.c</em> Revisa detalladamente la siguiente información y confirma cuál aseveración 
+ corresponde con el código que se muestra en el archivo mencionado.
+ <!--- La respuesta correcta es la primera---></li>
+</ol>
+
+<ul>
+  <li>Primero prueba de escritorio</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Paso</th>
+      <th>j</th>
+      <th>i/n</th>
+      <th>j</th>
+      <th>n</th>
+      <th>j/n/i</th>
+      <th>j</th>
+      <th>i/n/j</th>
+      <th>j</th>
+      <th>n</th>
+      <th>j/n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P1</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>n=0</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P2</td>
+      <td> </td>
+      <td>i = 1</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>i = 2</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P3</td>
+      <td>j = 5</td>
+      <td> </td>
+      <td>j = 3</td>
+      <td> </td>
+      <td>j = 1</td>
+      <td>j = 5</td>
+      <td> </td>
+      <td>j = 3</td>
+      <td> </td>
+      <td>j = 1</td>
+    </tr>
+    <tr>
+      <td>P4</td>
+      <td> </td>
+      <td>n = 6</td>
+      <td> </td>
+      <td>n = 10</td>
+      <td>n = 12</td>
+      <td> </td>
+      <td>n = 19</td>
+      <td> </td>
+      <td>n = 24</td>
+      <td>n = 27</td>
+    </tr>
+    <tr>
+      <td>P5</td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle j</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle j</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P6</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle i</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>FIN</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Segundo prueba de escritorio</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Paso</th>
+      <th>j</th>
+      <th>i/n</th>
+      <th>j</th>
+      <th>n</th>
+      <th>j/n/i</th>
+      <th>j</th>
+      <th>i/n/j</th>
+      <th>j</th>
+      <th>n</th>
+      <th>j/n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P1</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>n=1</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P2</td>
+      <td> </td>
+      <td>i = 1</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>i = 2</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P3</td>
+      <td>j = 5</td>
+      <td> </td>
+      <td>j = 3</td>
+      <td> </td>
+      <td>j = 1</td>
+      <td>j = 5</td>
+      <td> </td>
+      <td>j = 3</td>
+      <td> </td>
+      <td>j = 1</td>
+    </tr>
+    <tr>
+      <td>P4</td>
+      <td> </td>
+      <td>n = 6</td>
+      <td> </td>
+      <td>n = 10</td>
+      <td>n = 12</td>
+      <td> </td>
+      <td>n = 19</td>
+      <td> </td>
+      <td>n = 24</td>
+      <td>n = 27</td>
+    </tr>
+    <tr>
+      <td>P5</td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle j</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle j</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P6</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle i</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>FIN</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Tercer prueba de escritorio</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Paso</th>
+      <th>j</th>
+      <th>i/n</th>
+      <th>j</th>
+      <th>n</th>
+      <th>j/n/i</th>
+      <th>j</th>
+      <th>i/n/j</th>
+      <th>j</th>
+      <th>n</th>
+      <th>j/n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P1</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>n=0</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P2</td>
+      <td> </td>
+      <td>i = 0</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>i = 2</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P3</td>
+      <td>j = 5</td>
+      <td> </td>
+      <td>j = 3</td>
+      <td> </td>
+      <td>j = 1</td>
+      <td>j = 5</td>
+      <td> </td>
+      <td>j = 3</td>
+      <td> </td>
+      <td>j = 1</td>
+    </tr>
+    <tr>
+      <td>P4</td>
+      <td> </td>
+      <td>n = 6</td>
+      <td> </td>
+      <td>n = 10</td>
+      <td>n = 12</td>
+      <td> </td>
+      <td>n = 19</td>
+      <td> </td>
+      <td>n = 24</td>
+      <td>n = 27</td>
+    </tr>
+    <tr>
+      <td>P5</td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle j</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle j</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P6</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle i</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>FIN</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Cuarto prueba de escritorio</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Paso</th>
+      <th>j</th>
+      <th>i/n</th>
+      <th>j</th>
+      <th>n</th>
+      <th>j/n/i</th>
+      <th>j</th>
+      <th>i/n/j</th>
+      <th>j</th>
+      <th>n</th>
+      <th>j/n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P1</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>n=0</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P2</td>
+      <td> </td>
+      <td>i = 1</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>i = 2</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P3</td>
+      <td>j = 1</td>
+      <td> </td>
+      <td>j = 3</td>
+      <td> </td>
+      <td>j = 1</td>
+      <td>j = 5</td>
+      <td> </td>
+      <td>j = 3</td>
+      <td> </td>
+      <td>j = 1</td>
+    </tr>
+    <tr>
+      <td>P4</td>
+      <td> </td>
+      <td>n = 6</td>
+      <td> </td>
+      <td>n = 10</td>
+      <td>n = 12</td>
+      <td> </td>
+      <td>n = 19</td>
+      <td> </td>
+      <td>n = 24</td>
+      <td>n = 27</td>
+    </tr>
+    <tr>
+      <td>P5</td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle j</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle j</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>P6</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Bucle i</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>FIN</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="ejercicios-de-laboratorio">Ejercicios de Laboratorio<a name="ejerciciosLaboratorios"></a></h3>
+
+<ol>
+  <li>Escribe un código que evalúe la <code class="language-plaintext highlighter-rouge">x</code> y te calcule <code class="language-plaintext highlighter-rouge">f(x)</code></li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>x</th>
+      <th><code class="language-plaintext highlighter-rouge">f(x)=(x^3-x/3-1)/2</code></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-5</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-4</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-1</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>-0.5</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li>Escribe un código que evalúe la <code class="language-plaintext highlighter-rouge">x</code> y te calcule <code class="language-plaintext highlighter-rouge">f(x)</code>, 
+<code class="language-plaintext highlighter-rouge">g(x)</code> y <code class="language-plaintext highlighter-rouge">h(x)</code></li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>x</th>
+      <th><code class="language-plaintext highlighter-rouge">f(x)=x^3+2x</code></th>
+      <th><code class="language-plaintext highlighter-rouge">g(x)=x^3-2x^2-1</code></th>
+      <th><code class="language-plaintext highlighter-rouge">h(x)=sin(x)-sin^2(x)+x^(1/2)</code></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-10.0</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-9.5</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-9.0</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-8.5</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-8.0</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>-1</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Note que <code class="language-plaintext highlighter-rouge">-10.0&lt;=x&lt;=10.0</code>.</p>
+
+<ol>
+  <li>
+    <p>Escriba un código que calcule las tablas de multiplicar  del 1 al 12.</p>
+  </li>
+  <li>
+    <p>Reproduzca 10 códigos de la lista que aparece en:
+<a href="https://www.w3resource.com/c-programming-exercises/for-loop/index.php">link</a>.</p>
+  </li>
+  <li>
+    <p>Escriba un programa que realice la suma 
+de números mientras el usuario no presiona introduzca un carácter especial. Puede usar un <em>do-while</em>.</p>
+  </li>
+  <li>
+    <p>Escribe un código que realiza una tarea en el que implemente una estructura <em>while</em></p>
+  </li>
+  <li>
+    <p>Implementa un código en el que se muestre una cadena 
+caracteres. Usa una estructura de control iterativa.</p>
+  </li>
+  <li>
+    <p>Implementa  un código que tome caracteres y los clasifique  en una tabla; es decir: 
+el usuario introduce los caracteres y el programa muestra:</p>
+  </li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>vocal</th>
+      <th>número</th>
+      <th>carácter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>a</td>
+      <td>0</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>e</td>
+      <td> </td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>2</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="ejercicios-especiales">Ejercicios Especiales<a name="ejerciciosEspeciales"></a></h3>
+
+<ol>
+  <li>
+    <p>Implementa un covertidor de temperatura: usa una estructura de control iterativa <em>for</em>.
+ Convierte Farenheit a Celsius y Kelvin, implementa todas las conversiones posibles.</p>
+  </li>
+  <li>
+    <p>Escribe un programa que muestre los números pares en un intervalo. 
+ Ingrese el número 1 y 7; y el resultado sea: 2, 4, 6. Escribe el mismo 
+ programa para números impares. Implementa una estructura de control iterativa.</p>
+  </li>
+  <li>
+    <p>Escribe un programa que muestre el triángulo de pascal, el número de filas debe 
+ introducirse desde la terminal.</p>
+  </li>
+  <li>Usa estructuras de control iterativas y escribe un programa que te muestre tu 
+ apellido escrito con un caracter ingresado desde la terminal; ejemplo:
+~~~
+ <strong>** ***  ***  *  * **</strong>
+    <hr />
+    <hr />
+    <hr />
+    <p>~~~</p>
+  </li>
+  <li>
+    <p>Cree un programa que muestre los primeros cien números primos.</p>
+  </li>
+  <li>
+    <p>Cree un programa que tome un cadena de números y los invierta; es decir, 10283 y muestre 38201.</p>
+  </li>
+  <li>
+    <p>Escriba un programa en la que el usuario escriba 
+la función y la evalúe para mostrar los 
+de la variable y la función; es decir, <code class="language-plaintext highlighter-rouge">x</code> y <code class="language-plaintext highlighter-rouge">f(x)</code>.</p>
+  </li>
+  <li>
+    <p>Escriba un programa que tome los datos de 5 personas: 
+nombre, peso y edad; y muestre en la salida dos grupos 
+de personas (en dos columnas): 
+mayores a 15 y en la otra columna menores de 15 años.</p>
+  </li>
+  <li>Seleccione 5 ejercicios de cada capítulo del sitio: 
+<a href="https://c-for-dummies.com/begc4d/exercises/">link</a>, explíquelos y colóquelos en su repositorio.</li>
+</ol>
+
+<h3 id="referencias">Referencias<a name="referencias"></a></h3>
+<ol>
+  <li>Lenguaje C <a href="http://www.carlospes.com/curso_de_lenguaje_c/04_01_instruccion_break.php">link</a></li>
+</ol>
+
+<h4 id="volver-al-inicio"><a href="#LabEstrucDeControl">Volver al inicio</a></h4>
+
+<!---
+|V|V|V|V|V|V|V|V|V|C
+---|---|---|---|---|---|---|---|---|---|---
+P1	|	|n=0	|	|	|	|	|	|	|
+P2	| i = 1	|	|	|	|	| i = 2	|	|	|	|			
+P3	| j = 5	|	|j = 3	| 	|j = 1	|j = 5	|	| j = 3	|	| j = 1 
+P4	|	|n = 6	|	|n = 10	| n = 12|	|n = 19	| 	|n = 24	| n = 27
+P5	|	|	|Bucle j| 	|	|	|Bucle j|	|	|	
+P6	|	|	|	|	|Bucle i|	|	|	|  	|	|FIN	
+
+--->
+
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by 
+        <a href="https://github.com/UNAM-FESAc">
+        UNAM-FESAc
+        </a>
+        </p>
+        
+        
+        <p><small>
+        Hosted on GitHub Pages &mdash; Theme by 
+        <a href="https://github.com/orderedlist">
+        orderedlist
+        </a></small>
+        </p>
+      </footer>
+
+<!--- put widget hete -->
+
+    </div>
+    <script src="/assets/js/scale.fix.js">
+    </script>
+    
+    
+    <script>
+    
+      (
+      function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+      a=s.createElement(o), 
+      m=s.getElementsByTagName(o[0];
+      a.async=1;a.src=g;
+      m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'quantum computing, scientific computing, quantum machine learning', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+    
+  </body>
+</html>

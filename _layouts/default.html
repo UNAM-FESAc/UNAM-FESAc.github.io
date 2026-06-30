@@ -1,16 +1,4 @@
 <!DOCTYPE html>
-
-<head>
-  <script>
-	window.location = "https://jaorduz.github.io";
-  </script>
-</head>
-<body>
-  <p>
-    If you are not redirected in five seconds, <a href="https://jaorduz.github.io">click here</a>.
-   </p>
-</body>
-
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
@@ -42,18 +30,15 @@
         <p>
         {{ site.description | default: site.github.project_tagline }}
         </p>
-<!---
-	{% if site.github.is_project_page %}
- 	<p class="view">
-        JO: {{site.github.repository_url}}
-        <a href="{{https://github.com/UNAM-FESAc/}}">
-        View the Project on GitHub 
-        JO: {{site.github.repository_nwo}}        
-        <small>{{https://github.com/UNAM-FESAc/}}</small> 
-        </a>
-        </p>
-        --->
-        {% endif %}
+{% comment %}
+{% if site.github.is_project_page %}
+  <p class="view">
+    <a href="{{ site.github.repository_url }}">
+      View the Project on GitHub
+    </a>
+  </p>
+{% endif %}
+{% endcomment %}
 
         {% if site.github.is_user_page %}
         <p class="view">

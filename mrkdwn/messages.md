@@ -55,6 +55,6 @@ por el correo [s4o6v3r8b2m9r3i8@jaorduzcourses.slack.com](s4o6v3r8b2m9r3i8@jaord
 
 ### Profesor
 1. Les animo a unirse a las primeras sesiones, ahí aclararé dudas sobre la comunicación, reuniones y demás. En caso de algún situación particular, por favor comúnicate al correo:
-	- jaorduz@ciencias.unam.mx ([jaorduz@ciencias.unam.mx](jaorduz@ciencias.unam.mx))
+	- jaorduz@unam.edu ([jaorduz@unam.edu](jaorduz@unam.edu))
 	- o Usa el widget de calendly (parte inferior derecha) para agendar una reunión.
 
